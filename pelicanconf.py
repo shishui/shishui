@@ -12,6 +12,8 @@ ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
 PAGE_URL = '{slug}.html'
 DISPLAY_PAGES_ON_MENU = True
 FEED = 'feeds/all.atom.xml'
+CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
 
 
 DEFAULT_LANG = 'en'
